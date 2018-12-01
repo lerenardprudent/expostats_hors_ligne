@@ -1,0 +1,1526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2018-05-02 12:39-0400\n"
+"Last-Translator: p0070611 <EMAIL@ADDRESS>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "input.7"
+msgstr "Calculer"
+
+msgid "input.7.tooltip"
+msgstr ""
+"Cliquer pour lancer les calculs bayésiens. Pas besoin de cliquer pour "
+"changer d\\'onglet ou après avoir modifié les paramètres de calcul."
+
+msgid "input.8"
+msgstr "Calculs en cours..."
+
+msgid "descriptive.tab.name"
+msgstr "Descriptif"
+
+msgid "descriptive.title"
+msgstr "Statistiques descriptives"
+
+msgid "frac.tab.name"
+msgstr "Fraction de dépassement"
+
+msgid "frac.title"
+msgstr "Analyse de risque basée sur la fraction de dépassement"
+
+msgid "perc.title"
+msgstr "Analyse de risque basée sur le "
+
+msgid "am.tab.name"
+msgstr "Moyenne arithmétique"
+
+msgid "am.title"
+msgstr "Analyse de risque basée sur la moyenne arithmétique"
+
+msgid "inst.tab.name"
+msgstr "Instructions"
+
+msgid "about.tab.name"
+msgstr "À propos"
+
+msgid "back.tab.name"
+msgstr "Cadre méthodologique"
+
+# #########  TOOL1
+msgid "main.title.t1"
+msgstr ""
+"Tool1 : Interprétation des données pour un groupe d'exposition similaire"
+
+# #########  TOOL1 EXPRESS
+msgid "main.title.t1x"
+msgstr ""
+"Too1 1 Express: Interprétation des mesures pour un groupe d'exposition "
+"similaire"
+
+msgid "tab.name.1"
+msgstr "Entrées"
+
+msgid "tab.name.2"
+msgstr "Résultats"
+
+msgid "subtab.name.1"
+msgstr "Statistiques descriptives"
+
+msgid "subtab.name.2"
+msgstr "Paramètres estimés"
+
+msgid "subtab.name.3"
+msgstr "Analyse de risque"
+
+# #########  TOOL2
+msgid "main.title.t2"
+msgstr ""
+"Tool2 : Interprétation des données prenant en compte les variations inter-"
+"travailleurs"
+
+msgid "main.title.t3"
+msgstr "Tool3 : Determinants de l'exposition"
+
+msgid "descriptive.subtab.name.1"
+msgstr "Groupe"
+
+msgid "descriptive.subtab.name.2"
+msgstr "Individus"
+
+
+msgid "descriptive.subtab.global.name.2"
+msgstr "Individus"
+
+msgid "frac.subtab.name.1"
+msgstr "Groupe"
+
+#: ui.R:300
+msgid "frac.subtab.name.3"
+msgstr "Individus"
+
+msgid "frac.subtab.name.2"
+msgstr "Analyse des variations inter-travailleurs"
+
+# #########  TOOL3
+msgid "data.upload"
+msgstr "Aucun jeu de donnée téléversé"
+
+msgid "global.tab.name"
+msgstr "Global"
+
+msgid "global.title"
+msgstr "Analyse globale"
+
+msgid "descriptive.subtab.name.2.text"
+msgstr ""
+"Cet onglet présente une analyse de risque pour le jeu de données complet, "
+"sans stratification. Sélectionner ci-dessous la métrique d'intérêt"
+
+msgid "comp.tab.name"
+msgstr "Comparatif"
+
+msgid "comp.title"
+msgstr ""
+"Analyse comparant les différentes catégories de la variable sélectionnée"
+
+msgid "comp.all.tab.name"
+msgstr "Toutes les categories"
+
+msgid "comp.2.tab.name"
+msgstr "2 catégories"
+
+msgid "single.tab.name"
+msgstr "Catégorie unique"
+
+msgid "single.title"
+msgstr "Analyse basée sur une seule catégorie"
+
+# ########################################################
+#
+#
+#          DATA INPUT
+#       
+#
+#
+# ######################################################
+# ########## COMMON
+msgid "input.1"
+msgstr "Paramètres de calcul"
+
+msgid "input.2"
+msgstr "Valeur limite d'exposition"
+
+msgid "input.2.tooltip"
+msgstr ""
+"Valeur utilisée pour évaluer le risque de surexposition. Même unité que les "
+"mesures"
+
+msgid "input.3"
+msgstr "Facteur modifiant la VLE"
+
+msgid "input.3.1"
+msgstr "Sélection du centile critique"
+
+msgid "input.3.2"
+msgstr "Fraction de dépassement limite"
+
+msgid "input.3.tooltip"
+msgstr ""
+"Facteur utilisé pour modifier la valeur limite d\\'exposition (VLE). Le "
+"seuil de comparaison utilisé dans les calculs (qui reste noté VLE) est le "
+"produit de la valeur limite d\\'exposition saisie ci-dessus par ce facteur."
+
+msgid "input.4"
+msgstr "Probabilité pour les intervalles de crédibilité (%) "
+
+msgid "input.4.tooltip"
+msgstr ""
+"Choisir une probabilité (%) pour les intervalles de crédibilité autour des "
+"estimés (choisir une valeur entre 0 et 100%, valeur habituelle 90%). L"
+"\\'intervalle de crédibilité est l\\'équivalent bayésien de l\\'intervalle "
+"de confiance, et s\\'interprète en pratique de façon similaire"
+
+msgid "input.5"
+msgstr "Seuil de risque de surexposition"
+
+msgid "input.5.tooltip"
+msgstr ""
+"Choisir une valeur maximale pour le risque de surexposition. Au dessus de ce "
+"seuil (habituellement 5% en statistiques, ou 30% tel que proposé par l"
+"\\'INRS), la situation devrait déclencher une action correctrice.  Choisir "
+"une valeur entre 0 et 100%."
+
+msgid "input.6"
+msgstr "Données"
+
+msgid "frac.1"
+msgstr "Fraction de dépassement limite"
+
+msgid "frac.1.tooltip"
+msgstr ""
+"Limite acceptable pour la fraction de dépassement de la valeur limite d"
+"\\'exposition. Une fraction de dépassement au dessus de ce seuil indique une "
+"situation de surexposition. Valeur habituellement égale à 5%. La valeur "
+"saisie doit être entre 0 et 100%."
+
+msgid "perc.1"
+msgstr "Sélection du centile critique"
+
+msgid "perc.1.tooltip"
+msgstr ""
+"Valeur du centile de la distribution d\\'exposition qui sera comparé à la "
+"valeur limite d\\'exposition. Habituellement 95%. La valeur saisie doit être "
+"entre 0 et 100%"
+
+# Trucs pour centile
+msgid "st"
+msgstr "ièr"
+
+msgid "nd"
+msgstr "ième"
+
+msgid "rd"
+msgstr "ième"
+
+msgid "th"
+msgstr "ième"
+
+msgid "here"
+msgstr "ici"
+
+msgid "frac.ind.1"
+msgstr "Seuil de probabilité de surexposition individuelle"
+
+msgid "frac.ind.1.tooltip"
+msgstr ""
+"Limite acceptable pour la probabilité surexposition individuelle "
+"(probabilité qu\\'un travailleur ait sa propre fraction de dépassement "
+"supérieure à la fraction de dépassement limite). Les recommendations des "
+"sociétés britanniques et hollandaise de santé au travail proposent une "
+"valeur de 20% pour ce seuil (valeur par défaut)"
+
+msgid "perc.ind.1.tooltip"
+msgstr ""
+"Limite acceptable pour la probabilité surexposition individuelle "
+"(probabilité qu\\'un travailleur ait son propre percentile critique au "
+"dessus de la VLE. Les recommendations des sociétés britanniques et "
+"hollandaise de santé au travail proposent une valeur de 20% pour ce seuil "
+"(valeur par défaut)"
+
+msgid "input.5.1.tooltip"
+msgstr ""
+"Le ratio Rb a été défini comme le ratio du centile 97.5% de la distribution "
+"des moyennes arithmétiques (MA) individuelles des travailleurs au centile "
+"2.5% de la même distribution. Plus simplement, il peut être interprété comme "
+"le ratio de la MA du travailleurs le plus exposé à la MA du moins exposé. "
+"Cette définition traditionnelle correspond à une couverture de 95%%. Vous "
+"pouvez sélectionner ici une autre valeur de couverture (valeur entre 0 et "
+"100%)."
+
+# #########  TOOL1
+# #########  TOOL1 EXPRESS
+# #########  TOOL2
+msgid "input.5.1"
+msgstr "Couverture du ratio Rb"
+
+msgid "input.5.2"
+msgstr "Seuil de correlation intra-travailleur"
+
+msgid "input.5.2.tooltip"
+msgstr ""
+"Selon les recommandations du BOHS/NVVA, une variabilité inter-travaillleurs "
+"correspondant à un coefficient de corrélation intra-travailleur (rho) "
+"supérieur à 0.2 nécessite une estimation du risque prenant en compte les "
+"différences entre travailleurs à l\\'intérieur du groupe. Vous pouvez "
+"sélectionner ici une autre valeur seuil pour (rho) (valeur entre 0 et 1)."
+
+# #########  TOOL3
+msgid "input.6.1"
+msgstr "Sélectionner un fichier xlsx"
+
+msgid "input.6.2"
+msgstr "Exemple de données:"
+
+msgid "input.6.3"
+msgstr "Télécharger"
+
+msgid "input.6.4"
+msgstr ""
+"Les données doivent être sous la forme d\\'un fichier EXCEL, avec la "
+"première colonne comprenant les concentrations (les non détectés sont "
+"formattés sous la forme <x, par exemple <2), et les autres colonnes "
+"représentant les déterminants d\\'intérêt."
+
+msgid "prior.1"
+msgstr "Distribution à priori pour la variabilité"
+
+msgid "prior.1.tooltip"
+msgstr ""
+"Le modèle bayésien dans Expostats exploite une banque de données de mesures "
+"de variabilité de l\\'exposition pour informer l\\'estimation de l\\'écart-"
+"type géométrique (ETG) de la distribution d\\'exposition. Cette "
+"caractéristique pourrait biaisé les résultats si l\\'ETG vrai correspondant "
+"à votre situation est soit <1.3 soit >10. Si vous pensez que c\\'est le cas, "
+"choisissez l\\'option «non informative»."
+
+msgid "prior.a"
+msgstr "Expostats"
+
+msgid "prior.b"
+msgstr "Non-informative"
+
+
+
+# #############################################################
+#
+#
+#
+#      DESCRIPTIVE ANLYSES
+#
+#
+# ##############################################################
+# #########  COMMON
+msgid "descriptive.1"
+msgstr "Note"
+
+msgid "descriptive.3"
+msgstr "Graphique quantile-quantile"
+
+msgid "descriptive.4"
+msgstr ""
+"Dans le graphe ci-dessus, les points devraient suivre approximativement la "
+"ligne de régression. Toute déviation importante suggère potentiellement la "
+"nécessité de séparer les données en sous-groupe, ou d'évaluer la pertinence "
+"d'exclure certaines données extrêmes (si les conditions expérimentales le "
+"justifient)."
+
+# #########  TOOL1
+# #########  TOOL1 EXPRESS
+# #########  TOOL2
+msgid "descriptive.1.1"
+msgstr ""
+"Cet écran présente des statistiques descriptives pour n'importe quel "
+"travailleur avec au moins 3 mesures. La selection se fait dans le menu "
+"déroulant ci-dessous."
+
+# #########  TOOL3
+msgid "single.1"
+msgstr "Seules les catégories avec au moins 3 valeurs sont disponibles."
+
+msgid "descriptive.tab2.name"
+msgstr "Analyse de risque"
+
+msgid "descriptive.5"
+msgstr "Graphique en boite à moustache"
+
+msgid   "selected_worker"
+msgstr  "L'estimé de la %s et son intervalle de crédibilité à %s%% pour le travailleur sélectionné sont :"
+
+msgid "descriptive.6"
+msgstr ""
+"Le graphique ci-dessus représente un graphe en boite à moustache des "
+"données. Les observations individuelles sont ajoutées avec un placement "
+"aléatoire autour du centre de l'axe des abcisses. La boite est définie "
+"par les 25ième et 75ième centiles, et les moustaches par les 10ième et "
+"90ième centiles."
+
+
+# #############################################################
+#
+#
+#
+#      BAYESIAN CALCULATIONS
+#
+#
+# ##############################################################
+# #########  COMMON
+msgid "frac.2"
+msgstr "Aperçu"
+
+msgid "frac.3"
+msgstr ""
+"Le risquemètre ci-dessous résume l'analyse des données. Il montre la "
+"probabilité que l'exposition soit trop élevée par rapport à la valeur limite "
+"d'exposition. Une aiguille dans la section rouge indique une exposition mal "
+"maitrisée. Le raisonnement et les calculs sous-jacents sont présentés plus "
+"en détails dans les sections suivantes."
+
+msgid "frac.4"
+msgstr "Paramètres estimés - Distribution"
+
+msgid "frac.5"
+msgstr "Paramètres estimés - Fraction de dépassement"
+
+msgid "perc.5"
+msgstr "Paramètres estimés - "
+
+msgid "am.5"
+msgstr "Paramètres estimés - Moyenne arithmétique"
+
+msgid "frac.6"
+msgstr "L'estimé est: "
+
+msgid "frac.6.1"
+msgstr "L'intervalle de crédibilité (90%) est: "
+
+
+msgid "perc.6.1"
+msgstr ""
+"La figure ci-dessous fournit la distribution de l’incertitude sur la "
+"probabilité de surexposition individuelle à travers quatres catégories : "
+"Probabilité que la vraie valeur soit inférieure à "
+
+msgid "frac.7"
+msgstr "Décision sur le risque"
+
+msgid "frac.8"
+msgstr "Critère définissant une situation de surexposition :"
+
+msgid "perc.8.1"
+msgstr "≥ VLE"
+
+msgid "frac.9"
+msgstr "Fraction de dépassement"
+
+msgid "am.8"
+msgstr "Critère définissant une situation de surexposition:"
+
+msgid "AM"
+msgstr "MA"
+
+msgid "OEL"
+msgstr "VLE"
+
+msgid "frac.10"
+msgstr ""
+"Gestion de l'incertitude : basé sur le modèle bayésien, la probabilité que "
+"ce critère soit rencontré (risque de surexposition) est:"
+
+msgid	"frac.11"
+msgstr	"Gestion de l'incertitude : La probabilité de surexposition (risque de surexposition) devrait être: "
+
+
+msgid "frac.12"
+msgstr "En conséquence, la situation est déclarée: "
+
+msgid "am.13"
+msgstr "Attention:"
+
+msgid "am.13.1"
+msgstr ""
+"L'analyse de risque basée sur la moyenne arithmétique repose sur la "
+"disponibilité d'une valeur limite pondérée à long terme (VLE-PLT), "
+"représentant un seuil de dose cumulée. La plupart des VLEs actuelles ne sont "
+"pas créées comme des VLE-PLT. Bien que peu d'organisme proposent des "
+"définitions précises des VLE qu'ils publient, la plupart d'entre elles sont "
+"interprétées comme des seuils qui doivent être dépassés le moins souvent "
+"possible. Certains auteurs ont suggéré d'utiliser VLE/10 comme une valeur "
+"pratique de VLE-PLT lorsqu'on évalue le risque au moyen de la moyenne "
+"arithmétique."
+
+# #########  TOOL1
+# #########  TOOL1 EXPRESS
+msgid "box.name.5"
+msgstr "Cadre d'analyse de risque"
+
+msgid "risk.1"
+msgstr ""
+"Le risquemètre ci-dessous résume l'analyse bayésienne des données. Il montre "
+"la probabilité de surexposition, c'est à dire la probabilité que le 95ième "
+"centile soit supérieur à la valeur limite d'exposition. Une aiguille dans la "
+"section rouge indique une exposition mal maitrisée (c.a.d. une situation "
+"impliquant le déclenchement d'actions de maîtrise). Une aiguille dans la "
+"section jaune indique une exposition maitrisées, mais avec une marge de "
+"sécurité limitée. Une aiguille dans la section verte indique une exposition "
+"bien maitrisée."
+
+msgid "risk.1.1"
+msgstr "Décision sur le risque"
+
+msgid "risk.2"
+msgstr ""
+"Dans Tool1 Express, le cadre décisionnel choisi pour interpréter des mesures "
+"d'exposition repose sur les principes suivants : Le première étape consiste "
+"à définir un critère de surexposition, par example, 95ième centile au "
+"dessus de la VLE."
+
+msgid "risk.3"
+msgstr ""
+"L'étape suivante nécessite le choix d'un seuil pour la probabilité que ce "
+"critère soit rencontré. Au dessus de ce seuil, la probabilité de "
+"surexposition sera jugée trop élevée et des actions doivent être "
+"déclenchées. Le seuil traditionnel pour cette probabilité est de 5% (ainsi, "
+"il faut être sur au moins à 95% qu'il n'y a pas de surexposition). Des "
+"institutions de santé au travail françaises et britanniques ont proposé un "
+"seuil alternatif de 30% au lieu de 5%. C'est un seuil pragmatique visant à "
+"limiter la déclaration de trop de situations réellement acceptables comme "
+"innaceptables du à la sévérité du seuil de 5%."
+
+msgid "risk.4"
+msgstr ""
+"Nous proposons le cadre suivant pour interpréter le risque de surexposition "
+"(c.a.d la probabilité que le critère de surexposition soit rencontré):"
+
+msgid "risk.5"
+msgstr ""
+"Risque de surexposition <5% : Le risque de surexposition est très faible, la "
+"situation est bien maîtrisée."
+
+msgid "risk.6"
+msgstr ""
+"Risque de surexposition entre 5% et 30% : Le risque de surexposition est "
+"modéré, a situation est maîtrisée, mais avec une marge de sécurité limitée."
+
+msgid "risk.7"
+msgstr ""
+"Risque de surexposition >30% : Le risque de surexposition est élevé, la "
+"situation requière des actions de prévention, ou la prise de plus de mesures."
+
+msgid "risk.8"
+msgstr ""
+"La proposition ci-dessus est arbitraire, et peu être adaptée aux besoins "
+"spécifique de chaque utilisateur. l'information clé issu de l'analyse est le "
+"risque de surexposition (c.a.d la probabilité que le critère de "
+"surexposition soit rencontré) estimé par les modèles bayésiens."
+
+msgid "risk.9"
+msgstr "Critère définissant la surexposition: 95ième centile"
+
+# #########  TOOL2
+msgid "frac.13"
+msgstr "Paramètres estimés - Analyse de risque"
+
+msgid "frac.14.1"
+msgstr ""
+"L'estimé et l'intervalle de crédibilité pour la probabilité de surexposition "
+"individuelle (probabilité qu'un travailleur choisi au hasard ait sa fraction "
+"de dépassement individuelle au dessus de la fraction de dépassement limite) "
+"sont:"
+
+msgid "frac.14.2"
+msgstr "La probabilité que ce nombre soit supérieur à "
+
+msgid "frac.14.3"
+msgstr " est:"
+
+msgid "frac.17"
+msgstr "Paramètres estimés - Variabilité inter-travailleurs"
+
+msgid "GSDw"
+msgstr "Écart-type géométrique intra-travailleur (GSDw)"
+
+msgid "GSDw.lwr"
+msgstr "écart-type géométrique intra-travailleur (GSDw)"
+
+msgid "frac.18"
+msgstr "L'estimé de %s et son intervalle de crédibilité sont :"
+
+msgid "GSDb"
+msgstr "Écart-type géométrique inter-travailleur (GSDb)"
+
+msgid "GSDb.lwr"
+msgstr "écart-type géométrique inter-travailleur (GSDb)"
+
+msgid "rho"
+msgstr "Coefficient de corrélation intra-travailleur (rho)"
+
+msgid "rho.lwr"
+msgstr "coefficient de corrélation intra-travailleur (rho)"
+
+#: ui.R:285
+msgid "frac.21.1"
+msgstr "La probabilité que rho soit supérieur à "
+
+msgid "frac.21.2"
+msgstr " est : "
+
+msgid "frac.22.1"
+msgstr "Le ratio de Rb ("
+
+msgid "frac.22.2"
+msgstr " des travailleurs) estimé et son intervalle de crédibilité sont:"
+
+msgid "frac.23"
+msgstr ""
+"La probabilité que ce ratio soit supérieur à 2 (travailleurs les plus "
+"exposés au moins deux fois plus exposés que les travailleurs les moins "
+"exposés) est:"
+
+msgid "frac.24"
+msgstr ""
+"La probabilité que ce ratio soit supérieur à 10 (travailleurs les plus "
+"exposés au moins dix fois plus exposés que les travailleurs les moins "
+"exposés) est:"
+
+msgid "frac.26"
+msgstr ""
+"Cet écran permet une analyse de risque pour n'importe quel travailleur, "
+"selectionné au moyen du menu déroulant ci-dessous. Garder à l'esprit qu'une "
+"incertitude importante sera associé à chaque analyse, particulièrement pour "
+"les travailleurs associés à peu de mesures. Les résultats sont basés sur "
+"l'analyse bayésienne de variance du groupe complet, non restreint au données "
+"du travailleur sélectionné."
+
+# #########  TOOL3
+msgid "comp.1"
+msgstr ""
+"Cet onglet montre une comparaison incluant toutes les catégories de la "
+"variable sélectionnée qui sont associées à au moins 3 mesures."
+
+msgid "comp.2"
+msgstr "Graphique en boite à moustache"
+
+msgid "comp.3"
+msgstr ""
+"Le graphique en boite à moustache ci-dessous illustre les différences entre "
+"les catégories de la variable sélectionnée (limité aux catégories avec au "
+"moins 3 observations). Les points translucides représentent la distribution "
+"sous jacente théorique, et les points en gras representent les observations "
+"réelles. Pour ce graphiques les non-détectés sont imputé avec l'application %"
+"s."
+
+msgid "comp.4"
+msgstr "Statistiques comparatives - Distribution"
+
+msgid "comp.5"
+msgstr ""
+"Le tableau ci-dessous présente, pour chaque catégorie de la variable "
+"sélectionnée, les estimations et incertitudes associées pour plusieurs "
+"métriques d'exposition. Le niveaux de confiance est celui choisi par "
+"l'utilisateur dans l'onglet de saisie."
+
+msgid "comp.5.2"
+msgstr ""
+"RIE signifie indice relative d’exposition. La catégorie avec la moyenne "
+"géométrique la plus élevée est associée avec le niveau 100%, puis chaque "
+"catégorie est associée à un niveau relatif. Un RIE de 50% signifie que la "
+"moyenne géométrique pour cette catégorie est la moitié de la moyenne "
+"géométrique pour la catégorie de référence (celle associée à la moyenne "
+"géométrique la plus élevée). Le terme UCL signifie limite supérieure de "
+"crédibilité."
+
+msgid "comp.6"
+msgstr ""
+"Cet onglet présente une comparaison impliquant deux catégorie de la "
+"variable sélectionée. La comparaison permet d'estimer les différences entre "
+"ces catégories et l'incertitude associée. Elle permet également de calculer "
+"la probabilité que ces différences soient supérieures ou inférieures à des "
+"valeurs pré-spécifiées. Dans le menu ci-dessous, sélectionner une valeur "
+"pour la %s, et une valeur pour la %s. Dans les calculs qui suivent les "
+"diférences sont toujours du type %s - %s, et les ratios sont du type %s / %"
+"s."
+
+msgid "comp.7"
+msgstr "Graphique"
+
+msgid "comp.8"
+msgstr ""
+"Le graphique en boite à moustache ci-dessous illustre les différences entre %"
+"s et %s. Les points translucides représentent la distribution sous jacente "
+"théorique, et les points en gras representent les observations réelles. Pour "
+"ce graphiques les non-détectés sont imputé avec l'application %s appliquée "
+"au jeu de données complet."
+
+msgid "comp.9"
+msgstr "Analyse numérique - Distribution"
+
+msgid "comp.11"
+msgstr "Sélectionner le changement attendu, en terme de ratio, pour GM et GSD:"
+
+msgid "comp.12"
+msgstr "Changement attendu pour GM et GSD"
+
+msgid "comp.13"
+msgstr ""
+"Proba.sup and Proba.inf donnent les probabilités que le ratio soit supérieur "
+"(ou inférieur) au changement attendu spécifié ci-dessus"
+
+msgid "comp.14"
+msgstr "Analyse numérique - Métriques de risque"
+
+msgid "comp.15.1"
+msgstr "Sélectionner le changement attendu, en terme de ratio, pour le"
+
+msgid "comp.15.2"
+msgstr "et la moyenne arithmétique:"
+
+msgid "comp.16"
+msgstr "Changement attendu pour le "
+
+msgid "comp.17"
+msgstr "et la moyenne arithmétique"
+
+msgid "comp.18"
+msgstr ""
+"Sélectionner le changement attendu, en terme de différence en %, pour la "
+"fraction de dépassement de la VLE:"
+
+msgid "comp.19"
+msgstr "Changement attendu pour la fraction de dépassement de la VLE"
+
+msgid "comp.20"
+msgstr "Analyse numérique - Probabilité de surexposition"
+
+msgid "comp.21"
+msgstr ""
+"Le tableau ci-dessous présente la probabilité de surexposition pour les "
+"catégories 1 et 2 pour les 3 métriques de risque : Fraction de dépassement, "
+
+msgid "comp.22"
+msgstr ""
+", moyenne arithmétique. Les critères définissant la surexposition pour "
+"chaque métrique sont"
+
+msgid "comp.23"
+msgstr "Fraction de dépassement : fraction"
+
+msgid "comp.24"
+msgstr " : "
+
+msgid "comp.26"
+msgstr "Moyenne arithmétique : Moyenne arithmétique"
+
+msgid "comp.27"
+msgstr "La probabilité de surexposition devrait être inférieure à "
+
+msgid "comp.28"
+msgstr " pour déclarer une situation comme acceptable"
+
+# #############################################################
+#
+#
+#
+#      GRAPHS
+#
+#
+# ##############################################################
+# #########  TOOL1
+# #########  COMMON
+# # FRAC
+msgid "frac.graph.1"
+msgstr "Graphiques"
+
+msgid "frac.graph.2"
+msgstr "Graphique de type calendrier"
+
+msgid "frac.graph.3"
+msgstr ""
+"En supposant que la distribution des exposition existe au court d'unne "
+"année, correspondant à environ 240 jours, la figure ci-dessous illustre le "
+"nombre attendu de jours pour lesquels l'exposition dépasse la valeur limite."
+
+msgid "frac.graph.4"
+msgstr "Graphique séquentiel"
+
+msgid	"frac.graph.5"
+msgstr	"La figure ci-dessous montre les données précédentes sous un format légèrement différent, avec la sequence des journées en abcisse, et les valeurs d'exposition en ordonnées. La valeur limite est représentée par la ligne rouge horizontale."
+
+msgid	"frac.graph.6"
+msgstr	"Les données réelles saisies sont présentées sous forme de points de taille plus grande que les autres, placés aléatoirement dans l'année, en bleu pour les mesures détectées, en rouge pour les mesures non détectées traitées par NDexpo. Lorsque n>50, seules 50 observations tirées au hasard sont montrées."
+
+msgid "frac.graph.7"
+msgstr "Graphique de courbe de densité"
+
+msgid "frac.graph.8"
+msgstr ""
+"Le graphique ci-dessous montre la courbe de densité de probabilité (courbe "
+"apparentée à un histogramme) de la distribution des expositions. La VLE est "
+"représentée par une ligne rouge verticale. La fraction de dépassement est "
+"représentée par l'aire sous la courbe à droite de la VLE."
+
+msgid "frac.graph.9"
+msgstr ""
+"Le graphique montre notre meilleure estimation de la distribution des "
+"expositions. Pour illustrer l'incertitude associée à l'estimation, le "
+"curseur sous la figure suivante permet de sélectioner 50 distributions "
+"différentes tirées des itérations bayésiennes, chacune avec leur propre "
+"fraction de dépassement. Les première et dernière itérations correpondent au "
+"meilleur estimé. Vous pouvez cliquer sur le symbole lecture pour visionner "
+"automatiquement les 50 différentes distributions."
+
+msgid "frac.graph.10"
+msgstr "Itération"
+
+msgid "frac.graph.11"
+msgstr "Graphique par bande de risque"
+
+msgid "frac.graph.12.1"
+msgstr ""
+"La figure ci-dessous fournit la distribution de probabilité de l’incertitude "
+"sur la fraction de dépassement à travers trois catégories : Probabilité que "
+"la vraie fraction de dépassement soit inférieure à "
+
+msgid "frac.graph.12.2"
+msgstr ", probabilité que la vraie fraction de dépassement soit entre "
+
+msgid "frac.graph.12.3"
+msgstr " et "
+
+msgid "frac.graph.12.4"
+msgstr ""
+" et probabilité que la vraie fraction de dépassement soit supérieure à "
+
+msgid "frac.graph.12.5"
+msgstr ""
+". Ainsi, la barre rouge du graphe représente la probabilité d’une situation "
+"de surexposition (risque de surexposition)."
+
+msgid "percentile"
+msgstr "centile"
+
+msgid	"perc.graph.5"
+msgstr	"En supposant que la distribution des expositions existe au court d'une année, correspondant à environ 240 jours, la figure ci-dessous illustre les expositions existants durant l'année, avec la sequence des journées en abcisse, et les valeurs d'exposition en ordonnées. La valeur limite est représentée par la ligne rouge horizontale, le centile sélectionnépar la ligne bleue horizontale. "
+
+msgid "perc.graph.8"
+msgstr ""
+"Le graphique ci-dessous montre la courbe de densité de probabilité (courbe "
+"apparentée à un histogramme) de la distribution des expositions. La VLE est "
+"représentée par une ligne rouge verticale. Le centile sélectionné est "
+"représenté par la ligne bleue verticale."
+
+msgid "perc.graph.9"
+msgstr ""
+"Le graphique montre notre meilleure estimation de la distribution des "
+"expositions. Pour illustrer l'incertitude associée à l'estimation, le "
+"curseur sous la figure suivante permet de sélectioner 50 distributions "
+"différentes tirées des itérations bayésiennes, chacune avec leur propre "
+"centile critique. Les première et dernière itérations correpondent au "
+"meilleur estimé. Vous pouvez cliquer sur le symbole lecture pour visionner "
+"automatiquement les 50 différentes distributions."
+
+msgid "perc.graph.12.1"
+msgstr ""
+"La figure ci-dessous fournit la distribution de probabilité de l’incertitude "
+"sur le centile critique à travers 5 catégories (voir graphe ci-dessous) : "
+"Probabilité que le vrai"
+
+msgid "perc.graph.12.2"
+msgstr ""
+" soit inférieur à 1%% de la VLE, entre 1%% et 10%% de la VLE, entre 10%% et "
+"50%% de la VLE, entre 50%% et 100%% de la VLE, et probabilité qu'il soit "
+"supérieur à la VLE. Cette structure est basée sur la classication de risque "
+"de l'%s. La bande rouge dans la figure ci-dessous correspond à la "
+"probabilité d’une situation "
+"de surexposition (risque de surexposition)."
+
+msgid	"am.graph.5"
+msgstr	"En supposant que la distribution des expositions existe au court d'une année, correspondant à environ 240 jours, la figure ci-dessous illustre les expositions existants durant l'année, avec la sequence des journées en abcisse, et les valeurs d'exposition en ordonnées. La valeur limite est représentée par la ligne rouge horizontale, la moyenne arithmétique par la ligne verte horizontale. Lorsque >50, seules 50 observations tirées au hasard sont montrées."
+
+msgid "am.graph.8"
+msgstr ""
+"Le graphique ci-dessous montre la courbe de densité de probabilité (courbe "
+"apparentée à un histogramme) de la distribution des expositions. La VLE est "
+"représentée par une ligne rouge verticale. La moyenne arithmétique est "
+"représentée par la ligne verte verticale."
+
+msgid "am.graph.9"
+msgstr ""
+"Le graphique montre notre meilleure estimation de la distribution des "
+"expositions. Pour illustrer l'incertitude associée à l'estimation, le "
+"curseur sous la figure suivante permet de sélectioner 50 distributions "
+"différentes tirées des itérations bayésiennes, chacune avec leur propre "
+"moyenne arithmétique. Les première et dernière itérations correpondent au "
+"meilleur estimé. Vous pouvez cliquer sur le symbole lecture pour visionner "
+"automatiquement les 50 différentes distributions."
+
+msgid "am.graph.12"
+msgstr ""
+"La figure ci-dessous fournit la distribution de probabilité de l’incertitude "
+"sur la moyenne arithmétique à travers 5 catégories (voir graphe ci-"
+"dessous) : Probabilité que la vraie moyenne arithmétique soit inférieure à 1%"
+"% de la VLE, entre 1%% et 10%% de la VLE, entre 10%% et 50%% de la VLE, "
+"entre 50%% et 100%% de la VLE, et probabilité que la vraie moyenne "
+"arithmétique soit supérieure à la VLE. Cette structure est basée sur la "
+"classication de risque de l'%s. La bande rouge dans la figure ci-dessous "
+"correspond à la probabilité d’une situation "
+"de surexposition (risque de surexposition)."
+
+# #########  TOOL1 EXPRESS
+msgid	"result.8"
+msgstr	"En supposant que la distribution des expositions existe au court d'une année, correspondant à environ 240 jours, la figure ci-dessous illustre les expositions existants durant l'année, avec la sequence des journées en abcisse, et les valeurs d'exposition en ordonnées. La valeur limite est représentée par la ligne rouge horizontale. Lorsque >50, seules 50 observations tirées au hasard sont montrées."
+
+# #########  TOOL2
+msgid "frac.16.1"
+msgstr ""
+"La figure ci-dessous fournit la distribution de l’incertitude sur la "
+"probabilité de surexposition individuelle à travers quatres catégories : "
+"Probabilité que la vraie valeur soit inférieure à "
+
+msgid "frac.16.2"
+msgstr ", entre "
+
+msgid "frac.16.3"
+msgstr " et "
+
+msgid "frac.16.4"
+msgstr ",et supérieure à "
+
+msgid "frac.16.5"
+msgstr ", le seuil de risque de surexposition"
+
+msgid "perc.16.1"
+msgstr ""
+"La figure ci-dessous fournit la distribution de l’incertitude sur la "
+"probabilité de surexposition individuelle à travers quatres catégories : "
+"Probabilité que la vraie valeur soit inférieure à "
+
+msgid "perc.16.2"
+msgstr ", entre "
+
+msgid "perc.16.3"
+msgstr " et "
+
+msgid "perc.16.4"
+msgstr ", entre "
+
+msgid "perc.16.5"
+msgstr " et "
+
+msgid "perc.16.6"
+msgstr ",et supérieure à "
+
+msgid "perc.16.7"
+msgstr ", le seuil de risque de surexposition"
+
+# #########  TOOL3
+# #############################################################
+#
+#
+#
+#      SERVERS
+#
+#
+# ##############################################################
+# #########  COMMON
+# # general
+msgid "server.1"
+msgstr "Itérations bayesiennes: "
+
+msgid "server.2"
+msgstr "Mal maitrisée"
+
+msgid "server.3"
+msgstr "Maitrisée adéquatement"
+
+msgid "gm"
+msgstr "Moyenne géométrique"
+
+msgid "gsd"
+msgstr "Écart-type géométrique"
+
+msgid "gm.lwr"
+msgstr "la moyenne géométrique"
+
+msgid "gsd.lwr"
+msgstr "l'écart-type géométrique"
+
+# # descriptive table
+msgid "res.desc.1"
+msgstr "n"
+
+msgid "res.desc.2"
+msgstr "Proportion censurée"
+
+msgid "res.desc.3"
+msgstr "Minimum"
+
+msgid "res.desc.4"
+msgstr "25ième centile"
+
+msgid "res.desc.5"
+msgstr "Médiane"
+
+msgid "res.desc.6"
+msgstr "75ième centile"
+
+msgid "res.desc.7"
+msgstr "Maximum"
+
+msgid "res.desc.8"
+msgstr "Proportion >VLE"
+
+msgid "res.desc.9"
+msgstr "Moyenne arithmétique"
+
+msgid "res.desc.10"
+msgstr "Écart-type arithmétique"
+
+msgid "res.desc.11"
+msgstr "Coefficient de variation"
+
+msgid "res.desc.12"
+msgstr "Moyenne géométrique"
+
+msgid "res.desc.13"
+msgstr "Écart-type géométrique"
+
+# # descriptive qqplot
+msgid "qqplot.1"
+msgstr "Graphe Quantile-quantile"
+
+msgid "qqplot.2"
+msgstr "Quantile (dist lognormale)"
+
+msgid "qqplot.3"
+msgstr "Quantile (obs. standardisées)"
+
+msgid "qqplot.4"
+msgstr "Type de mesure"
+
+msgid "qqplot.5"
+msgstr "Censuré"
+
+msgid "qqplot.6"
+msgstr "Détecté"
+
+# # main plots
+msgid "calplot.1"
+msgstr "Semaine"
+
+msgid "calplot.2"
+msgstr "Jour"
+
+msgid "calplot.3"
+msgstr "Mois"
+
+msgid "seqplot.1"
+msgstr "Concentration"
+
+msgid "seqplot.2"
+msgstr "Fraction de dépassement "
+
+msgid "seqplot.3"
+msgstr "VLE"
+
+msgid "seqplot.4"
+msgstr "Centile"
+
+msgid "seqplot.5"
+msgstr "Moyenne arithmétique"
+
+msgid "seqplot.6"
+msgstr "Mois"
+
+msgid "distplot.1"
+msgstr "Concentration"
+
+msgid "distplot.2"
+msgstr "Densité"
+
+msgid "distplot.3"
+msgstr ""
+"Fraction de\n"
+"dépassement "
+
+msgid "distplot.4"
+msgstr "VLE hors des limites graphiques"
+
+msgid "distplot.5"
+msgstr "VLE"
+
+msgid "distplot.6"
+msgstr "Centile"
+
+msgid "distplot.7"
+msgstr "Moyenne arithmétique"
+
+msgid "riskplot.1"
+msgstr "Catégorie de Fraction de dépassement "
+
+msgid "riskplot.2"
+msgstr "Probabilité"
+
+msgid "riskplot.3"
+msgstr ""
+"<1%\n"
+"VLE"
+
+msgid "riskplot.4"
+msgstr ""
+"1-10%\n"
+"VLE"
+
+msgid "riskplot.5"
+msgstr ""
+"10-50%\n"
+"VLE"
+
+msgid "riskplot.6"
+msgstr ""
+"50-100%\n"
+"VLE"
+
+msgid "riskplot.7"
+msgstr ">VLE"
+
+msgid "riskplot.8"
+msgstr "Catégorie pour le centile critique"
+
+msgid "riskplot.9"
+msgstr "Catégorie pour la moyenne arithmétique"
+
+# #########  TOOL1
+msgid "inst.title"
+msgstr "Instructions de mise en oeuvre"
+
+# #########  TOOL1 EXPRESS
+# #########  TOOL2
+msgid "server.w.1"
+msgstr "Sélectionner un travailleur"
+
+msgid "boxplot.work.1"
+msgstr "Travailleur avec n>2"
+
+msgid "boxplot.work.2"
+msgstr "Concentration"
+
+msgid "boxplot.work.3"
+msgstr "VLE"
+
+msgid "riskplot.work.1"
+msgstr "Catégorie pour la probabilité de surexposition individuelle"
+
+msgid "riskplot.work.2"
+msgstr "Probabilité"
+
+# #########  TOOL3
+msgid "server.inputs.1"
+msgstr "Sélectionner la variable d'intérêt"
+
+msgid "boxplot.cat.1"
+msgstr "Catégories"
+
+msgid "boxplot.cat.2"
+msgstr "Concentration"
+
+msgid "boxplot.cat.3"
+msgstr "VLE"
+
+msgid "boxplot.2cat.1"
+msgstr "Catégorie 1"
+
+msgid "boxplot.2cat.2"
+msgstr "Catégorie 2"
+
+msgid "boxplot.2cat.3"
+msgstr "Concentration"
+
+msgid "boxplot.2cat.4"
+msgstr "VLE"
+
+msgid "comp.d.1"
+msgstr "MG"
+
+msgid "comp.d.2"
+msgstr "ETG"
+
+msgid "comp.d.3"
+msgstr "RIE"
+
+msgid "comp.d.4"
+msgstr "F.Dépass"
+
+msgid "comp.d.5"
+msgstr "Centile"
+
+msgid "comp.d.6"
+msgstr "Moyenne arithmétique"
+
+msgid "comp.d.7"
+msgstr "Paramètre"
+
+msgid "comp.2cat.4"
+msgstr "Catégoriey"
+
+msgid "comp.d.am.1"
+msgstr "Cent"
+
+msgid "comp.d.am.2"
+msgstr "MA"
+
+msgid "Arithmetic mean"
+msgstr "Moyenne arithmétique"
+
+msgid "Months"
+msgstr "Mois"
+
+msgid "Exceedance fraction"
+msgstr "Fraction de dépassement"
+
+msgid "Percentile"
+msgstr "Centile"
+
+msgid "category"
+msgstr "catégorie"
+
+msgid "elsewhere"
+msgstr "ailleurs"
+
+msgid "onecat.1"
+msgstr "Sélectionner une catégorie"
+
+msgid "twocat.1"
+msgstr "Sélectionner une catégorie"
+
+
+msgid "twocat.2"
+msgstr "Sélectionner une catégorie"
+
+msgid "frac.25"
+msgstr ""
+"Le graphique en boite à moustache ci-dessous illustre les différences entre "
+"les travailleurs (limité aux travailleurs avec au moins 3 observations). Les "
+"points translucides représentent la distribution sous jacente théorique, et "
+"les points en gras representent les observations réelles. Pour ce graphiques "
+"les non-détectés sont imputé avec l'application %s."
+
+
+msgid "frac.25.t3"
+msgstr ""
+"Le graphique en boite à moustache ci-dessous illustre les différences entre "
+"les catégories (limité aux catégories avec au moins 3 observations). Les "
+"points translucides représentent la distribution sous jacente théorique, et "
+"les points en gras representent les observations réelles. Pour ce graphiques "
+"les non-détectés sont imputé avec l'application %s."
+
+msgid "gauge"
+msgstr "Jauge de risque"
+
+msgid "band"
+msgstr "Bande de risque"
+
+msgid "gauge.t3.title"
+msgstr "Analyses comparatives - Jauge de risque"
+
+msgid "gauge.t3"
+msgstr ""
+"Le graphique ci-dessous montre le risque de surexposition (probabilité que "
+"le centile critique soit au dessus de la norme) pour toutes les catégories, "
+"triées de la plus haute valeur à la plus faible. Des zones de couleur sont "
+"définie par les seuil de 5% (seuil traditionel, <5% correspond à un risque "
+"de surexposition faible), et de 30% (seuil de la réglementation française et "
+"des recommendations Européennes : >30% correspond à un risque trop élevée et "
+"donc à une situation de non conformité)."
+
+msgid "riskband.t3.title"
+msgstr "Analyses comparatives - Bandes de risque"
+
+
+msgid "riskband.t3"
+msgstr ""
+"L'étape suivante nécessite le choix d'un seuil pour la probabilité que ce "
+"critère soit rencontré. Au dessus de ce seuil, la probabilité de "
+"surexposition sera jugée trop élevée et des actions doivent être "
+"déclenchées. Le seuil traditionnel pour cette probabilité est de 5% (ainsi, "
+"il faut être sur au moins à 95% qu'il n'y a pas de surexposition). Des "
+"institutions de santé au travail françaises et britanniques ont proposé un "
+"seuil alternatif de 30% au lieu de 5%. C'est un seuil pragmatique visant à "
+"limiter la déclaration de trop de situations réellement acceptables comme "
+"innaceptables du à la sévérité du seuil de 5%."
+
+msgid "riskplot.17"
+msgstr "centile"
+
+msgid "Overexposure risk"
+msgstr "Risque de surexposition"
+
+msgid "Probability"
+msgstr "Probabilité"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Categories"
+msgstr "Catégories"
+
+msgid "Critical percentile category"
+msgstr "Catégorie de centile critique"
+
+msgid "frac.18.b"
+msgstr "L'estimé de %s et son intervalle de crédibilité (90%%) sont :"
+
+msgid "95th percentile"
+msgstr "95ième centile"
+
+msgid "d.boxplot.1"
+msgstr "Type de mesure"
+
+msgid "d.boxplot.2"
+msgstr "Concentration"
+
+msgid "d.boxplot.3"
+msgstr "VLE"
+
+msgid "d.boxplot.4"
+msgstr "Censuré"
+
+msgid "d.boxplot.5"
+msgstr "Non censuré"
+
+msgid  "plot.grp.1"
+msgstr "Catégories"
+
+msgid  "plot.grp.2"
+msgstr "Probabilitiés"
+                            
+msgid   "plot.grp.3"
+msgstr  "Catégorie pour la probabilité de surexposition (%)"
+
+msgid   "plot.grp.4"
+msgstr  " "
+                            
+msgid   "plot.grp.5"
+msgstr  "Probabilité de surexposition (%)"
+                            
+msgid   "plot.grp.6"
+msgstr  "<1%\nVLE"
+
+msgid   "plot.grp.7"
+msgstr  "1-10%\nVLE"
+                            
+msgid   "plot.grp.8"
+msgstr  "10-50%\nVLE"
+
+msgid   "plot.grp.9"
+msgstr  "50-100%\nVLE"
+
+msgid   "plot.grp.10"
+msgstr  ">VLE"
+
+msgid   "plot.grp.11"
+msgstr  "Catégorie pour le centile critique"
+
+# #############################################################
+#
+#
+#
+#      INSTRUCTIONS/ABOUT/BACKGROUND
+#
+#
+# ##############################################################
+# #########  COMMON
+msgid "inst.1"
+msgstr ""
+"Cette application effectue des calculs pour faciliter l’interprétation de "
+"mesures de l’exposition professionnelle en milieu de travail, en particulier "
+"en regard d’une valeur limite d’exposition (VLE). Elle est basé sur un cadre "
+"méthodologique adopté par des organisations reconnues internationalement, "
+"comme l’American industrial hygiene association (AIHA), la British society "
+"for occupational health and safety (BOHS), l'asssociation hollandaise de "
+"santé au travail (NVVA), ou encore l’Institut national de recherche et de "
+"sécurité (INRS) et le Comité de normalisation Européen."
+
+msgid "inst.2"
+msgstr ""
+"On suppose que les mesures saisies représentent un échantillon aléatoire de "
+"la distribution des expositions correspondant à la situation évaluée, c'est "
+"à dire que les données sont représentative d'un certain régime d'exposition "
+"que l'on cherche à caractériser."
+
+msgid "inst.5"
+msgstr ""
+"Les valeurs correspondant à des échantillons non-détectés sont simplement "
+"saisie comme \"<X\", \">X\", or \"[X1-X2]\", avec X  exprimée dans la même "
+"unité que les autre mesures."
+
+msgid "about.2"
+msgstr ""
+"Dans cette application l’estimation des paramètres de la distribution "
+"lognormale est réalisée par le biais d’un modèle bayésien. Nous avons "
+"privilégié cette approche pour 3 raisons : Les méthodes bayésiennes "
+"permettent de répondre à des questions d’une façon plus intuitive que les "
+"approches traditionnelles ; le traitement des résultats non détectés est "
+"naturellement intégré dans les méthodes bayésiennes; Le cadre bayésien "
+"permet d’intégrer aux mesures objectives des information externes. Cette "
+"dernière propriété n’est cependant pas utilisée dans l’outil actuel."
+
+msgid "about.3"
+msgstr ""
+"En termes pratiques, cette application est programmée en langage %s, un "
+"logiciel statistique gratuit, et fait appel au logiciel de calcul bayésien "
+"gratuit %s. L’interface entre R et Internet est réalisée par le complément "
+"logiciel %s pour R."
+
+msgid "back.2"
+msgstr ""
+"De plus amples détails sur le contexte et les différentes approches sont "
+"disponibles %s."
+
+msgid "back.3"
+msgstr ""
+"La boite à outils que nous construisont est en développement permanent, et "
+"une documentation complète n'est pas encore disponible. En attendant, nous "
+"répondrons avec plaisir à toute question, et accueillons tout commentaires "
+"et suggestions avec enthousiasme."
+
+# #########  TOOL1
+msgid "about.title"
+msgstr "À propos de Tool1"
+
+msgid "about.1"
+msgstr ""
+"Tool1 et ses outils compagnons sont développés par l'équipe d'hygiène du "
+"travail du Département de santé environnementale et santé au travail de l'%s "
+"de l'%s."
+
+msgid "back.title"
+msgstr "Base scientifique sous-jacente"
+
+msgid "back.1"
+msgstr ""
+"Les modèles bayésiens et les procédure d'interprétation utilisées dans Tool1 "
+"sont basées sur ce que notre équipe considère comme les règles de l'art "
+"actuelles dans le domaine de l'interprétation des mesures d'hygiène "
+"industrielle."
+
+# #########  TOOL1 EXPRESS
+#: ui.R:362
+msgid "about.title.t1x"
+msgstr "À propos de Tool1 Express"
+
+#: ui.R:364
+msgid "about.1.t1x"
+msgstr ""
+"Tool1 Express constitue une version simplifiée de Tool1 nous avons inclus "
+"les éléments essentiels d'une analyse de données d'hygiène industrielle. "
+"Tool1 et ses outils compagnons sont développés par l'équipe d'hygiène du "
+"travail du Département de santé environnementale et santé au travail de %s "
+"de l'%s."
+
+#: ui.R:365
+msgid "about.2.t1x"
+msgstr ""
+"Dans cette application l'estimation des paramètres de la distribution "
+"lognormale est réalisée par le biais d'un modèle bayésien. Nous avons "
+"privilégié cette approche pour 3 raisons : Les méthodes bayésiennes "
+"permettent de répondre à des questions d'une façon plus intuitive que les "
+"approches traditionnelles ; le traitement des résultats non détectés est "
+"naturellement intégré dans les méthodes bayésiennes; Le cadre bayésien "
+"permet d'intégrer aux mesures objectives des information externes. Cette "
+"dernière propriété n'est cependant pas utilisée dans l'outil actuel."
+
+# #########  TOOL2
+msgid "inst.title.t2"
+msgstr "Comment utiliser Tool2"
+
+msgid "about.title.t2"
+msgstr "À propos de Tool2"
+
+msgid "back.title.t2"
+msgstr "Base scientifique sous-jacente"
+
+msgid "back.1.t2"
+msgstr ""
+"Les modèles bayésiens et les procédure d'interprétation utilisées dans Tool2 "
+"sont basées sur ce que notre équipe considère comme les règles de l'art "
+"actuelles dans le domaine de l'interprétation des mesures d'hygiène "
+"industrielle."
+
+# #########  TOOL3
+msgid "inst.title.t3"
+msgstr "Comment utiliser Tool3"
+
+msgid "about.title.t3"
+msgstr "À propos de Tool3"
+
+msgid "about.1.t3"
+msgstr ""
+"Tool3 et ses outils compagnons sont développés par l'équipe d'hygiène du "
+"travail du Département de santé environnementale et santé au travail de %s "
+"de l'%s."
+
+#: ui.R:372
+msgid "back.title.t3"
+msgstr "Base scientifique sous-jacente"
+
+#: ui.R:374
+msgid "back.1.t3"
+msgstr ""
+"Les modèles bayésiens et les procédure d'interprétation utilisées dans Tool3 "
+"sont basées sur ce que notre équipe considère comme les règles de l'art "
+"actuelles dans le domaine de l'interprétation des mesures d'hygiène "
+"industrielle."
+
+
+msgid "descriptive.2"
+msgstr ""
+"Pour ces analyses, les données censurées sont traitées de la façon "
+"suivante : Les données censurées sur un interval sont imputés égales au "
+"centre le la fourchette, les données censurées à droites sont remplacées par "
+"9/4 du point de censure, les données censurées à gauche sont traitées par "
+"une méthode d’imputation appelée Régression sur les statistiques d’ordre. "
+"L’approche sélectionnée utilise un algorithme tiré de l’application %s, un "
+"outil lui-même basé sur les travaux de %s."
+
+msgid "inst.3"
+msgstr ""
+"L’utilisation de l’application est très simple : Saisir des données dans la "
+"zone de saisie, choisir les paramètres de calcul, et attendre un instant (le "
+"temps que les calculs se fassent). Les données peuvent être saisies "
+"manuellement, en saisissant chaque valeur suivie d’un retour chariot, comme "
+"dans un éditeur de texte. Elles peuvent également être copiées-collées à "
+"partir d’une colonne provenant d’un chiffrier/tableur comme MS Excel. Les "
+"calculs se referont dès qu'une entrée est modifiée. Pour effacer les données "
+"par défaut, il suffit de les sélectionner avec la souris et d’appuyer sur la "
+"touche de suppression."
+
+#: ui.R:351
+msgid	"inst.3.t3"
+msgstr	"Utiliser l'application est simple: téléverser un fichier et sélectionner les paramètres ; les calculs seront effectués automatiquement."
+msgid "inst.4"
+msgstr ""
+"Le bouton \"Calculer\" devrait être activé chaque fois que les données sont "
+"modifiées."
+
+msgid "about.1.t2"
+msgstr ""
+"Tool2 et ses outils compagnons sont développés par l'équipe d'hygiène du "
+"travail du Département de santé environnementale et santé au travail de l'%s "
+"de l'%s."
+
+msgid "Data"
+msgstr "Données"

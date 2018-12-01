@@ -1,0 +1,11 @@
+body { font-family: sans-serif }
+      
+h1   {color: blue;}
+      
+p    {color: red;}
+      
+ol > li { padding: 5px }
+      
+ol > li > img { vertical-align: top }
+      
+img.resize {  max-width: 400px; height: auto }

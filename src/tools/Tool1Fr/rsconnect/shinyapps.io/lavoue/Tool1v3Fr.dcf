@@ -1,0 +1,12 @@
+name: Tool1v3Fr
+title: Tool1v3Fr
+username:
+account: lavoue
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 341683
+bundleId: 1444100
+url: https://lavoue.shinyapps.io/Tool1v3Fr/
+when: 1529705282.93638
+asMultiple: FALSE
+asStatic: FALSE
